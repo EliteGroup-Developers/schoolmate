@@ -1,0 +1,118 @@
+/* #DBFDC8
+#ADECCF
+#0D1F23
+#E5E7EB
+#D6B9FC
+#FFFFFF
+rgba(255, 255, 255, 0.8)
+#F9F9F9
+#000000
+rgba(0, 0, 0, 0.18) */
+
+
+form{
+    margin-bottom: 50px;
+}
+
+.registrationForm{
+    width: 100%;
+    max-width: 1200px;
+    /* background-color:#DBFDC8; */
+    height: 100vh;
+    overflow-y: scroll;
+    margin-bottom: 5%;
+    padding: 2%;
+    color:#000;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.registrationForm h1 {
+    color: #ADECCF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.registrationForm h2 {
+    color:#DBFDC8
+    ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+
+
+    /* #DBFDC8
+#ADECCF
+#0D1F23
+#E5E7EB
+#D6B9FC */
+}
+
+
+.registrationForm label {
+    color: #DBFDC8;
+}
+
+.detailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: space-between;
+
+
+  
+
+}
+.courseContainer {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  
+
+}
+
+.registrationForm input {
+  
+  flex-basis: calc(33.33% - 10px); /* Each input takes up one-third of the container width with some margin */
+  margin: 5px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 3px solid #ADECCF;
+}
+
+.registrationForm button{
+    border: 1px solid #0D1F23;
+    color: #0D1F23;
+    background-color:#DBFDC8;
+}
+.registrationForm button:hover{
+    border: 2px solid #fff;
+    background-color: #0D1F23;
+    color: #fff;
+}
+  
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .nameContainer, .courseContainer {
+      flex-direction: column;
+    }
+
+    .registrationForm h1 {
+        font-size: 1.5rem;
+    }
+  }
