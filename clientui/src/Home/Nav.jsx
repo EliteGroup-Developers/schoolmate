@@ -14,6 +14,8 @@ const Nav = () => {
           </button>
           <button className='px-10 py-1 ml-6  border-2 border-[#DBFDC8]'>
             <a  className='text-[20px]' href=''>Login</a>
+
+            
           </button>
         </div>
       </div>
