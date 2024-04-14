@@ -72,7 +72,7 @@ startDelay={2000}
         cursorColor="#3F3D56"
         multiText={[
           'Welcome to schoolMate',
-          'get instant timetable scheduling',
+          'get instant  timetable scheduling',
           'and examination timetable scheduling',
           'SchoolMate Gat Your Back',
         ]}
