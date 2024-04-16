@@ -9,7 +9,7 @@ const DashBoard = () => {
     <DashBoardNav/>
 
 
-    <div>
+    <div className='mt-0 '>
       <h1>Welcome username</h1>
     </div>
     
