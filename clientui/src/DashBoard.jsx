@@ -11,6 +11,7 @@ const DashBoard = () => {
 
     <div className='-mt-[10rem]  flex flex-col justify-center items-center h-4 '>
       <h1 className='text-center mt-0  text-3xl'>Welcome username</h1>
+      
     </div>
     
     </section>
