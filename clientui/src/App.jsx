@@ -4,6 +4,8 @@ import Login from './Login'
 import MainPage from './MainPage'
 import CourseRegistration from './CourseRegistration';
 
+import DashBoard from './DashBoard'
+
 import Developers from './Developers'
 
 import Nav from './Home/Nav'
@@ -24,6 +26,7 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/coursereg' element={<CourseRegistration/>}/>
         <Route path='/developer' element={<Developers/>}/>
+        <Route path='/dashboard' element={<DashBoard/>}/>
       {/* <Nav/>
       <Hero/> */}
       {/* <Register/> */}
