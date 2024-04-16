@@ -5,12 +5,12 @@ import DashBoardNav from './DashBoardNav'
 const DashBoard = () => {
   return (
 
-    <section className=' flex flex-col min-w-full'>
+    <section className='  min-w-full'>
     <DashBoardNav/>
 
 
-    <div className='mt-0 '>
-      <h1>Welcome username</h1>
+    <div className='-mt-[10rem]  flex flex-col justify-center items-center h-4 '>
+      <h1 className='text-center mt-0  text-3xl'>Welcome username</h1>
     </div>
     
     </section>
